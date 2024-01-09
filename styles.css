@@ -43,7 +43,7 @@ h1 {
   background-color: #46688E;
   color: white;
   border: 2px solid White;
-  padding: 20px;
+  padding: 5px;
   display: flex; /* Using flexbox for the content of the box */
   flex-direction: column; /* Stack the content vertically */
   justify-content: center; /* Center the content vertically */
@@ -58,7 +58,7 @@ h1 {
 /* Main content styles */
 main {
   padding: 20px;
-  text-align: center; /* Center main content text */
+  text-align: left; /* Left align main content text */
 }
 
 /* Footer styles */
