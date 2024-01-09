@@ -52,7 +52,7 @@ h1 {
   max-width: 600px; /* Maximum width of the box */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
   margin-bottom: 40px; /* Margin to the bottom */
-  margin-right: 40px;
+  margin-left: 450px;
 }
 
 /* Main content styles */
@@ -71,3 +71,30 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+/* Styles specific to the Our Team page */
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.team-member {
+  border: 2px solid #46688E;
+  padding: 15px;
+  margin: 10px;
+  width: 200px; /* Or whatever width you prefer */
+  text-align: center;
+}
+
+.team-member h2 {
+  color: #46688E;
+}
+
+.team-member p {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
