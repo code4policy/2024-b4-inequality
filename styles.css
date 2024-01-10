@@ -37,6 +37,14 @@ h1 {
   text-align: center;
   padding: 20px 0;
 }
+h2 {
+  font-size: 2em; /* Adjust size as needed */
+  text-align: left;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 
 /* Quiz box styles - Updated for centering */
 .quiz-box {
@@ -59,6 +67,14 @@ h1 {
 main {
   padding: 20px;
   text-align: left; /* Left align main content text */
+}
+
+/*style image*/
+img.centered-image {
+  display: block;
+  margin: 0 auto;
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* Maintains aspect ratio */
 }
 
 /* Footer styles */
