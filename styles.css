@@ -44,6 +44,7 @@ h1 {
 
 h2 {
   font-size: 2em;
+  color: white;
   text-align: left;
   padding: 20px 0;
   margin-bottom: 20px;
@@ -54,6 +55,10 @@ h2 {
 main {
   padding: 20px;
   background-color: #1A1A1A; /* Match main content background with header */
+}
+
+p   {
+  color: black;
 }
 
 /* Style image */
