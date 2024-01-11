@@ -6,8 +6,8 @@ d3.csv("hungarycsv.csv").then(function(data) {
         d["2018"] = +d["2018"];
     });
 
-    var margin = {top: 60, right: 20, bottom: 30, left: 40},
-        width = 960 - margin.left - margin.right,
+    var margin = {top: 60, right: 20, bottom: 30, left: 50},
+        width = 700 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
     var svg = d3.select("#chart").append("svg")
@@ -29,7 +29,7 @@ d3.csv("hungarycsv.csv").then(function(data) {
         .attr("y", 50)
         .attr("text-anchor", "left")
         .style("font-size", "12px")
-        .text("Between 2008 and 2018, Hungary's populist vote share increased from 44% to 65%.");
+        .text("Between 2008 (green) and 2018 (brown), Hungary's populist vote share increased from 44% to 65%.");
 
     var chartGroup = svg.append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");

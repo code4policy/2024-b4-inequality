@@ -115,3 +115,11 @@ footer {
   margin: 10px 0;
 }
 
+#chart {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+
