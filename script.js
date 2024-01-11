@@ -8,7 +8,7 @@ function updateYear() {
 
 // Function to show a welcome message
 function showWelcomeMessage() {
-  alert('Welcome to The Rise of Modern Populism website!');
+  alert('Welcome to The Rise of Modern Populism website! - A project for Harvard Kennedy School - Programming and Data for Policymakers');
 }
 
 // Call the functions when the window loads
