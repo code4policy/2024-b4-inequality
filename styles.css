@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-body, h1, a {
+body, h1, a, h3 {
   font-family: 'Arial', sans-serif;
   color: white; /* White text color for better contrast on dark backgrounds */
 }
@@ -44,11 +44,21 @@ h1 {
 
 h2 {
   font-size: 2em;
+  color: black;
+  text-align: left;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 1em;
   color: white;
   text-align: left;
   padding: 20px 0;
   margin-bottom: 20px;
   margin-top: 20px;
+  background-color: #1A1A1A;
 }
 
 /* Main content styles */
@@ -59,6 +69,19 @@ main {
 
 p   {
   color: black;
+}
+
+p1   {
+  color: white;
+}
+
+section {
+  color: black;
+  text-align: center;
+  margin: 50;
+  padding: 50;
+  box-sizing: border-box;
+  background-color: white;
 }
 
 /* Style image */
@@ -104,11 +127,13 @@ footer {
 
 .team-member h2 {
   color: #FFF; /* White text for names */
+  text-align: center;
 }
 
 .team-member p {
   font-size: 1em;
   margin: 10px 0;
+  text-align: center;
 }
 
 /* Responsive Design */
@@ -126,5 +151,6 @@ footer {
     width: 90%;
     max-width: 600px;
     margin: auto;
+    color: black;
     font-family: Arial, sans-serif;
 }
