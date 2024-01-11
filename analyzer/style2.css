@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #005eb8;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Styles for the hero section */
+/* Styles for the hero section */
+.hero {
+    background-image: url('analyzer2.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* No repeating of the image */
+    color: white; /* Text color */
+    padding: 50px 20px; /* Padding inside hero section */
+    text-align: center; /* Center text */
+    max-width: 1200px; /* Maximum width of the hero section */
+    margin: 0 auto; /* Center the hero section horizontally */
+}
+
+/* Enhanced text shadow styles for better readability */
+.hero h1,
+.hero p {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 1); /* Darker and more pronounced shadow */
+}
+
+}
+
+.content {
+    padding: 20px;
+}
+
+/* Other styles... */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative; /* Changed from absolute to relative */
+    width: 100%;
+}
+
+/* Additional styles to ensure the footer stays at the bottom */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* This ensures that the main content takes up the available space, pushing the footer down */
+}
+
+
+.logo img {
+    height: 100px; /* Adjust the logo size */
+    width: auto;
+}
