@@ -104,6 +104,14 @@ img.centered-image {
   max-width: 600px; /* Max-width for large screens */
 }
 
+img.fit-image {
+  display: block;
+  margin: 0px auto; /* Increase margin for more space */
+  width: auto; /* Responsive width */
+  height: auto; /* Maintains aspect ratio */
+  max-width: outo; /* Max-width for large screens */
+}
+
 /* Footer styles */
 footer {
   background-color: #000; /* Dark background for footer */
