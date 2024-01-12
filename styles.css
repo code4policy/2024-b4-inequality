@@ -123,3 +123,14 @@ footer {
     margin: auto;
     font-family: Arial, sans-serif;
 }
+
+.ted-talk-embed {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    width: 100%;
+    max-width: 640px; /* This keeps the original width of 640px as the maximum */
+    height: 320px;
+}
