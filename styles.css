@@ -156,6 +156,14 @@ footer {
     font-family: Arial, sans-serif;
 }
 
+#chart2 {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
 .ted-talk-embed {
     display: flex;
     justify-content: center;
