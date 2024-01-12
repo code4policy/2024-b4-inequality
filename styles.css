@@ -1,30 +1,33 @@
 /* Reset styles */
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body, h1, a {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
+  color: white; /* White text color for better contrast on dark backgrounds */
 }
 
 /* Navigation menu styles */
 nav ul {
   list-style-type: none;
-  background-color: #46688E; /* Replace with your preferred color */
+  background-color: #000; /* Dark background for the navbar */
   overflow: hidden;
   padding: 0;
+  text-align: center; /* Center the navigation items */
 }
 
 nav li {
-  display: inline;
-  padding-right: 0px;
+  display: inline-block; /* Use inline-block for horizontal listing */
+  padding: 20px 15px; /* Provide padding for tap targets */
 }
 
 nav a {
   text-decoration: none;
-  color: white; /* Replace with your preferred color */
+  color: white;
+  font-weight: bold; /* Make the navigation items bold */
 }
 
 nav a:hover {
@@ -33,63 +36,49 @@ nav a:hover {
 
 /* Header styles */
 h1 {
-  font-size: 3em; /* Adjust size as needed */
+  font-size: 3em;
   text-align: center;
-  padding: 20px 0;
+  padding: 50px 0; /* Increase padding for more space */
+  background-color: #1A1A1A; /* Dark background for header */
 }
+
 h2 {
-  font-size: 2em; /* Adjust size as needed */
+  font-size: 2em;
   text-align: left;
   padding: 20px 0;
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-
-/* Quiz box styles - Updated for centering */
-.quiz-box {
-  background-color: #46688E;
-  color: white;
-  border: 2px solid White;
-  padding: 5px;
-  display: flex; /* Using flexbox for the content of the box */
-  flex-direction: column; /* Stack the content vertically */
-  justify-content: center; /* Center the content vertically */
-  align-items: center; /* Center the content horizontally */
-  width: 100%; /* Full width */
-  max-width: 600px; /* Maximum width of the box */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
-  margin-bottom: 40px; /* Margin to the bottom */
-  margin-left: 450px;
-}
-
 /* Main content styles */
 main {
   padding: 20px;
-  text-align: left; /* Left align main content text */
+  background-color: #1A1A1A; /* Match main content background with header */
 }
 
-/*style image*/
+/* Style image */
 img.centered-image {
   display: block;
-  margin: 0 auto;
-  width: 300px; /* Adjust the width as needed */
+  margin: 40px auto; /* Increase margin for more space */
+  width: 100%; /* Responsive width */
   height: auto; /* Maintains aspect ratio */
+  max-width: 600px; /* Max-width for large screens */
 }
 
 /* Footer styles */
 footer {
-  background-color: #46688E; /* Replace with your preferred color */
+  background-color: #000; /* Dark background for footer */
   color: white;
   text-align: center;
-  padding: 10px 0;
-  position: bottom;
+  padding: 20px 0;
+  position: relative; /* Changed from absolute to relative */
   bottom: 0;
   width: 100%;
 }
 
 /* Styles specific to the Our Team page */
 .team-container {
+  background-color: #1A1A1A; /* Match team container background with the main content */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -98,21 +87,34 @@ footer {
 }
 
 .team-member {
-  border: 2px solid #46688E;
+  background-color: #333; /* Slightly lighter background for team member cards */
+  color: white; /* Text color for team member cards */
+  border: none; /* Remove border */
   padding: 15px;
   margin: 10px;
   width: 200px; /* Or whatever width you prefer */
   text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
 }
 
 .team-member h2 {
-  color: #46688E;
-  text-align: center;
+  color: #FFF; /* White text for names */
 }
 
 .team-member p {
   font-size: 1em;
   margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav li {
+    padding: 10px 5px; /* Reduce padding on smaller screens */
+  }
+
+  img.centered-image {
+    width: 90%; /* Make image take more width on smaller screens */
+  }
 }
 
 #chart {
@@ -121,5 +123,3 @@ footer {
     margin: auto;
     font-family: Arial, sans-serif;
 }
-
-
