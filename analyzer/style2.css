@@ -58,12 +58,13 @@ nav {
 /* Other styles... */
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    position: relative; /* Changed from absolute to relative */
-    width: 100%;
+  background-color: #000; /* Dark background for footer */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative; /* Changed from absolute to relative */
+  bottom: 0;
+  width: 100%;
 }
 
 /* Additional styles to ensure the footer stays at the bottom */
