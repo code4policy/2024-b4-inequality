@@ -47,6 +47,7 @@ h2 {
   color: black;
   text-align: center;
   padding: 20px 0;
+  line-height: 30px;
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -56,7 +57,8 @@ h3 {
   color: white;
   text-align: center;
   padding: 20px 40px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  line-height: 20px;
   margin-top: 20px;
   background-color: #1A1A1A;
 }
@@ -66,7 +68,8 @@ h4 {
   color: white;
   text-align: center;
   padding: 20px 40px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  line-height: 20px;
   margin-top: 20px;
   background-color: darkblue;
 }
@@ -107,7 +110,7 @@ img.centered-image {
 img.fit-image {
   display: block;
   margin: 0px auto; /* Increase margin for more space */
-  width: auto; /* Responsive width */
+  width: 100%; /* Responsive width */
   height: auto; /* Maintains aspect ratio */
   max-width: outo; /* Max-width for large screens */
 }
@@ -201,3 +204,35 @@ iframe {
   height: /* specify a height if needed */;
 }
 
+.quiz-box {
+  background-color: #333; /* Slightly lighter background for team member cards */
+  color: white; /* Text color for team member cards */
+  border: 50px; /* Remove border */
+  padding: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 90%; /* Or whatever width you prefer */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.quiz-box h2 {
+  color: indianred;
+}
+
+.quiz-box h3 {
+  font-size: 1em;
+  color: black;
+  text-align: center;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  margin-top: 20px;
+  background-color: whitesmoke;
+}
+
+.quiz-box a {
+ text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}

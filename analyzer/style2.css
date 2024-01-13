@@ -1,32 +1,31 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
+  font-family: 'Arial', sans-serif;
+  color: white; /* White text color for better contrast on dark backgrounds */
 }
 
-header {
-    background-color: #005eb8;
-    color: white;
-    padding: 10px 0;
+nav ul {
+  list-style-type: none;
+  background-color: #000; /* Dark background for the navbar */
+  overflow: hidden;
+  padding: 0;
+  text-align: center; /* Center the navigation items */
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+nav li {
+  display: inline-block; /* Use inline-block for horizontal listing */
+  padding: 20px 15px; /* Provide padding for tap targets */
 }
 
-.nav-links li {
-    display: inline;
-    margin: 0 10px;
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold; /* Make the navigation items bold */
 }
 
-.nav-links a {
-    color: white;
-    text-decoration: none;
+nav a:hover {
+  text-decoration: underline;
 }
+
 
 /* Styles for the hero section */
 /* Styles for the hero section */
@@ -45,15 +44,29 @@ nav {
 /* Enhanced text shadow styles for better readability */
 .hero h1,
 .hero p {
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 1); /* Darker and more pronounced shadow */
-    
-}
+    text-shadow: 3px 3px 20px rgba(0, 0, 0, 1); /* Darker and more pronounced shadow */
+    }
 
 }
 
 .content {
     padding: 20px;
 }
+.content h1 {
+  font-family: 'Arial', sans-serif;
+  color: white; /* White text color for better contrast on dark backgrounds */
+  text-align: center;
+  font-size: 2em;
+  text-align: center;
+  padding: 20px 0; /* Increase padding for more space */
+  background-color: #1A1A1A;  
+}
+
+.content p {
+    color: black;
+    margin-left: 60px;
+    margin-right: 60px;
+} 
 
 /* Other styles... */
 
@@ -62,7 +75,7 @@ footer {
   color: white;
   text-align: center;
   padding: 20px 0;
-  position: relative; /* Changed from absolute to relative */
+  position: revert; /* Changed from absolute to relative */
   bottom: 0;
   width: 100%;
 }
@@ -72,10 +85,16 @@ html, body {
     height: 100%;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
+h1, h2, {
+  font-family: 'Arial', sans-serif;
+  color: white; /* White text color for better contrast on dark backgrounds */
+  text-align: center;
+  font-size: 3em;
+  text-align: center;
+  padding: 50px 0; /* Increase padding for more space */
+  background-color: #1A1A1A; /* Dark background for header */
 }
+
 
 main {
     flex: 1; /* This ensures that the main content takes up the available space, pushing the footer down */
