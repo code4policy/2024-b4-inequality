@@ -75,10 +75,11 @@ footer {
   color: white;
   text-align: center;
   padding: 20px 0;
-  position: revert; /* Changed from absolute to relative */
+  position: relative; /* Changed from absolute to relative */
   bottom: 0;
   width: 100%;
 }
+
 
 /* Additional styles to ensure the footer stays at the bottom */
 html, body {
@@ -105,3 +106,11 @@ main {
     height: 100px; /* Adjust the logo size */
     width: auto;
 }
+
+.p2 {
+    color: black;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px 0;
+
+   }

@@ -55,7 +55,7 @@ h2 {
 h3 {
   font-size: 1em;
   color: white;
-  text-align: center;
+  text-align: left;
   padding: 20px 40px;
   margin-bottom: 25px;
   line-height: 20px;
@@ -66,7 +66,7 @@ h3 {
 h4 {
   font-size: 1em;
   color: white;
-  text-align: center;
+  text-align: left;
   padding: 20px 40px;
   margin-bottom: 25px;
   line-height: 20px;
@@ -91,7 +91,7 @@ p1   {
 
 section {
   color: black;
-  text-align: center;
+  text-align: left;
   margin: 50;
   padding: 50;
   box-sizing: border-box;
