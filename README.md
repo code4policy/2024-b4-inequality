@@ -8,4 +8,4 @@ Sprint1_Sprintboard: https://github.com/orgs/code4policy/projects/31/views/1
 
 Sprint2_Sprintboard: https://github.com/orgs/code4policy/projects/50
 
-Sprint1_Demo: https://code4policy.com/2024-b4-inequality/
+Sprint2_Demo: https://code4policy.com/2024-b4-inequality/
